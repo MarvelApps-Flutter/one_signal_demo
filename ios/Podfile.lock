@@ -1,0 +1,45 @@
+PODS:
+  - Flutter (1.0.0)
+  - onesignal_flutter (3.3.1):
+    - Flutter
+    - OneSignalXCFramework (= 3.11.1)
+  - OneSignalXCFramework (3.11.1):
+    - OneSignalXCFramework/OneSignalCore (= 3.11.1)
+    - OneSignalXCFramework/OneSignalExtension (= 3.11.1)
+    - OneSignalXCFramework/OneSignalOutcomes (= 3.11.1)
+  - OneSignalXCFramework/OneSignalCore (3.11.1)
+  - OneSignalXCFramework/OneSignalExtension (3.11.1):
+    - OneSignalXCFramework/OneSignalCore
+    - OneSignalXCFramework/OneSignalOutcomes
+  - OneSignalXCFramework/OneSignalOutcomes (3.11.1):
+    - OneSignalXCFramework/OneSignalCore
+  - webview_flutter_wkwebview (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - onesignal_flutter (from `.symlinks/plugins/onesignal_flutter/ios`)
+  - OneSignalXCFramework (< 4.0, >= 3.0.0)
+  - webview_flutter_wkwebview (from `.symlinks/plugins/webview_flutter_wkwebview/ios`)
+
+SPEC REPOS:
+  trunk:
+    - OneSignalXCFramework
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  onesignal_flutter:
+    :path: ".symlinks/plugins/onesignal_flutter/ios"
+  webview_flutter_wkwebview:
+    :path: ".symlinks/plugins/webview_flutter_wkwebview/ios"
+
+SPEC CHECKSUMS:
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  onesignal_flutter: 8f17fbc764b033117d2c878db635c3cd4911ff04
+  OneSignalXCFramework: 8bdcaa3b7f6082565bf29c5481435376a33e94f2
+  webview_flutter_wkwebview: b7e70ef1ddded7e69c796c7390ee74180182971f
+
+PODFILE CHECKSUM: 829ffc32dbfde53a9f37e833ef08209a7169196b
+
+COCOAPODS: 1.11.3
