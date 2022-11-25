@@ -31,7 +31,7 @@ To begin with setup >> Set up your OneSignal Account then after login click on N
 
  2. Add apply plugin for oneSignal in <b> android/app/build.gradle </b>
 
-  <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/android/plugin.png" height="70px">
+  <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/android/plugin.png" height="100px">
   
  # For iOS
 
