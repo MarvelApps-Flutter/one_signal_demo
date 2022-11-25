@@ -1,5 +1,5 @@
 # One Signal Push notifications demo
-A new flutter app for demonstrating One Signal Push notifications for android and iOS. OneSignal provide free email, sms, push notifications and in-app message service for mobile apps.
+A new flutter app for demonstrating <b>One Signal Push notifications for android and iOS</b>. OneSignal provide <b>free email, sms, push notifications </b> and <b> in-app message service</b> for mobile apps.
 
 # Setup 
 To begin with setup <b> Set up your OneSignal Account then after login click on New App/Website </b>
