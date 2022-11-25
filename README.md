@@ -108,7 +108,7 @@ To begin with setup <b> Set up your OneSignal Account then after login click on 
 
 <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/podfile_setup.png" height="300px">
 
-5.7. Now you need to enable push capability for iOS apps.Open your ios folder in Xcode. In the main app target, select <b>Signing & Capabilities </b> All > + and then search for <b> "Push Notifications"</b>
+5.7. Now you need to enable push capability for iOS apps.Open your ios folder in Xcode. In the main app target, select <b>Signing & Capabilities </b> -> + and then search for <b> "Push Notifications"</b>
 
 <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/select_push_noti.png" height="300px">
 
