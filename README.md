@@ -78,41 +78,43 @@ To begin with setup <b> Set up your OneSignal Account then after login click on 
 
 <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/select_appid.png" height="200px">
 
-4.9. Click <b> Choose File...</b>, select the <b> CertSigningRequest</b> file you saved.
+4.9. Click <b> Choose File...</b>, select the <b> CertSigningRequest</b> file or you can generate csr file using below steps.
 
 <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/choose_cer.png" height="200px">
 
-5.&nbsp;<b>For the iOS version, there are some additional steps that need to be completed.</b>
+5.<b> How to generate CertSigningRequest file </b>
 
-5.1. The first one is to add an <b> iOS Notification service extension</b> for that open xcode and <b>select File > New > Target</b>
+6.&nbsp;<b>For the iOS version, there are some additional steps that need to be completed.</b>
+
+6.1. The first one is to add an <b> iOS Notification service extension</b> for that open xcode and <b>select File > New > Target</b>
 
 <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/select_target.png" height="300px">
  
-5.2. Then select <b> Notification Service Extension </b> and press Next.
+6.2. Then select <b> Notification Service Extension </b> and press Next.
 
 <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/choose_service.png" height="300px">
 
-5.3. Add the product name as <b> OneSignalNotificationServiceExtension</b> and change the language acc to your needs. The team account should be your account or your organization's account.
+6.3. Add the product name as <b> OneSignalNotificationServiceExtension</b> and change the language acc to your needs. The team account should be your account or your organization's account.
 
 <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/product_name.png" height="300px">
 
-5.4. Click the finish at bottom right corner of the window then a pop up will display which will ask for <b> activating "OneSignalNotificationServiceExtension" scheme?</b> , simply click Activate.
+6.4. Click the finish at bottom right corner of the window then a pop up will display which will ask for <b> activating "OneSignalNotificationServiceExtension" scheme?</b> , simply click Activate.
 
 <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/popup.png" height="300px">
 
-5.5 Now, open the Xcode project settings and select the <b> OneSignalNotificationServiceExtension target</b>.Under the Deployment info section on this page, select iOS 11.
+6.5 Now, open the Xcode project settings and select the <b> OneSignalNotificationServiceExtension target</b>.Under the Deployment info section on this page, select iOS 11.
 
 <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/one_signal_ios_deploy.png" height="300px">
 
-5.6 Now, close the Xcode project and go back to your Flutter development IDE. In the /ios directory of your project, open the <b>Podfile</b>, and add the following lines outside of the main target (they should be at the same level as your main target):
+6.6 Now, close the Xcode project and go back to your Flutter development IDE. In the /ios directory of your project, open the <b>Podfile</b>, and add the following lines outside of the main target (they should be at the same level as your main target):
 
 <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/podfile_setup.png" height="300px">
 
-5.7. Now you need to enable push capability for iOS apps.Open your ios folder in Xcode. In the main app target, select <b>Signing & Capabilities </b> -> click + and then search for <b> "Push Notifications"</b>
+6.7. Now you need to enable push capability for iOS apps.Open your ios folder in Xcode. In the main app target, select <b>Signing & Capabilities </b> -> click + and then search for <b> "Push Notifications"</b>
 
 <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/select_push_noti.png" height="300px">
 
-5.8. Next, enable <b> Background Modes </b> and <b> check Remote Notifications</b>.
+6.8. Next, enable <b> Background Modes </b> and <b> check Remote Notifications</b>.
 
 <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/select_background_mode.png" height="300px">
 <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/select_remote_noti.png" height="300px">
