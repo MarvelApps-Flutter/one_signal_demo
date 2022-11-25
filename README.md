@@ -41,7 +41,7 @@ To begin with setup <b> Set up your OneSignal Account then after login click on 
   <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/choose_ios_plat.png" height="300px">
 
  2. <b> Click on Next: Configure Your Platform </b>
- 3. Now add <b > .p12 certificate file and<b> generated password <b>.
+ 3. Now add <b > .p12 certificate file </b> and<b> generated password <b>.
 
   <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/certificate_section.png" height="300px">
 
