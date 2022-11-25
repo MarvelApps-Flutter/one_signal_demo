@@ -45,7 +45,7 @@ To begin with setup <b> Set up your OneSignal Account then after login click on 
 
   <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/certificate_section.png" height="300px">
 
-4.&nbsp<b>For generating .p12 certificate ,follow below steps</b> <br>
+4.&nbsp;<b>For generating .p12 certificate ,follow below steps</b> <br>
 4.1 Login to your Paid Apple Developer Account and navigate to Certificates, Identifiers & Profiles -> Identifiers and select the Blue + button.
 
 <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/identifier_section.png" height="200px">
@@ -82,7 +82,7 @@ To begin with setup <b> Set up your OneSignal Account then after login click on 
 
 <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/choose_cer.png" height="300px">
 
-5.&nbsp<b>For the iOS version, there are some additional steps that need to be completed.</b>
+5.&nbsp;<b>For the iOS version, there are some additional steps that need to be completed.</b>
 
 5.1. The first one is to add an iOS Notification service extension for that open xcode and select File > New > Target
 
