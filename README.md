@@ -64,15 +64,15 @@ To begin with setup <b> Set up your OneSignal Account then after login click on 
 
 4.5. Enable Push notification capability.
 
-<img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/select_push_capability.png" height="300px">
+<img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/select_push_capability.png" height="100px">
 
 4.6. Now go to certificates and create a new certificate by clicking the blue + (plus) button.
 
-<img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/add_certificate.png" height="300px">
+<img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/add_certificate.png" height="150px">
 
 4.7. Under Service, select Apple Push Notification service SSL (Sandbox & Production, certificate will be applicable to both Sandbox and Production environments, so you do not need a separate key for each one) and click Continue
 
-<img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/select_services.png" height="300px">
+<img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/select_services.png" height="250px">
 
 4.8. Choose your App ID with matching Bundle ID from the App ID pop-up menu.
 
