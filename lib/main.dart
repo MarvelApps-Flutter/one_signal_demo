@@ -26,9 +26,6 @@ class _MyAppState extends State<MyApp> {
     OneSignal.shared
         .setNotificationOpenedHandler((OSNotificationOpenedResult result) {
       debugPrint('NOTIFICATION OPENED HANDLER CALLED WITH: $result');
-      // setState(() {});
-      // globals.appnavigator.currentState
-      //     ?.push(MaterialPageRoute(builder: (context) => const NotificationHome()));
     });
 
     OneSignal.shared.setNotificationWillShowInForegroundHandler(

@@ -19,5 +19,5 @@ class StringConstants
   static const String carouselImg = "assets/images/carousel.png";
   static const String nutinoStyle = "Nunito";
   static const String oneSignalTitle = "One Signal Push notifications";
-  static const String oneSignalAppId = "cba31d8b-0333-46ea-9a41-0a8a4d6f08cb";
+  static const String oneSignalAppId = "Specify your own key";
 }
