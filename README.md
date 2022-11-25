@@ -84,7 +84,7 @@ To begin with setup <b> Set up your OneSignal Account then after login click on 
 
 5.&nbsp;<b>For the iOS version, there are some additional steps that need to be completed.</b>
 
-5.1. The first one is to add an <b> iOS Notification service extension</b> for that open xcode and select File > New > Target
+5.1. The first one is to add an <b> iOS Notification service extension</b> for that open xcode and <b>select File > New > Target</b>
 
 <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/select_target.png" height="300px">
  
