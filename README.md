@@ -113,7 +113,18 @@ To begin with setup <b> Set up your OneSignal Account then after login click on 
 
 5.9.&nbsp;Give the file a unique name using the .p12 extension, and click Save. You will have an option to protect the file with a password. If you add a password, you need to enter this same password on OneSignal.
 
-6.&nbsp;<b>For the iOS version, there are some additional steps that need to be completed.</b>
+
+6.&nbsp;Upload Your Push Certificate to OneSignal, select the .p12 file you exported along with a password and click save.
+
+7.&nbsp;Select your <b> target SDK </b> and <b> click on SAVE and Continue </b>
+
+ <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/android/choose_sdk.png" height="300px">
+
+8.&nbsp;<b>Install SDK </b> by following documentation or below are the steps for installing SDK for iOS.
+
+ <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/ios_install_sdk.png" height="300px">
+
+9.&nbsp;<b>For the iOS version, there are some additional steps that need to be completed for installing SDK</b>
 
 6.1. The first one is to add an <b> iOS Notification service extension</b> for that open xcode and <b>select File > New > Target</b>
 
@@ -150,7 +161,6 @@ To begin with setup <b> Set up your OneSignal Account then after login click on 
 
 # Video Preview
 <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/gif/demo.gif" height="480px"></td>
-
 # Android Screenshots
 
 <table>
