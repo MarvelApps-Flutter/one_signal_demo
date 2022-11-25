@@ -112,7 +112,7 @@ To begin with setup <b> Set up your OneSignal Account then after login click on 
 
 <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/select_push_noti.png" height="300px">
 
-5.8. Next, enable <b> Background Modes and check Remote Notifications</b>.
+5.8. Next, enable <b> Background Modes </b> and <b> check Remote Notifications</b>.
 
 <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/select_background_mode.png" height="300px">
 <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/select_remote_noti.png" height="300px">
