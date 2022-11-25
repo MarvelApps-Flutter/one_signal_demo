@@ -56,15 +56,15 @@ To begin with setup <b> Set up your OneSignal Account then after login click on 
 
 4.3. Register a new <b> identifier </b>
 
-<img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/select_identifier_type.png" height="300px">
+<img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/select_identifier_type.png" height="200px">
 
 4.4. Provide a <b> "Description"</b> and your Explicit <b> "Bundle ID"</b>. This must be the same as the <b>"Bundle Identifier"</b> you set for your project in Xcode.
 
-<img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/bundle_id.png" height="300px">
+<img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/bundle_id.png" height="200px">
 
 4.5. Enable <b>Push notification capability</b>.
 
-<img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/select_push_capability.png" height="100px">
+<img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/select_push_capability.png" height="70px">
 
 4.6. Now go to <b>certificates</b> and create a new certificate by clicking the blue + (plus) button.
 
