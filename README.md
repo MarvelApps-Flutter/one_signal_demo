@@ -7,7 +7,8 @@ To begin with setup <b> Set up your OneSignal Account then after login click on 
 <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/android/new_setup.png" height="60px">
 
  # For Google Android (FCM) Configuration 
- 1. Set the <b> app name of your app</b> and <b> choose platform </b>
+
+ 1. Set the <b> app name of your app</b> and <b> choose platform as android </b>
 
   <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/android/choose_platform.png" height="300px">
 
@@ -35,9 +36,14 @@ To begin with setup <b> Set up your OneSignal Account then after login click on 
   
  # For iOS
 
- 1. Specify your <b> google API key </b> in application delegate <b> ios/Runner/AppDelegate.swift </b>
+ 1. Set the <b> app name of your app</b> and <b> choose platform as ios </b>
 
-  <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/appdelegate.png" height="200px">
+  <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/choose_ios_plat.png" height="300px">
+
+ 2. <b> Click on Next: Configure Your Platform </b>
+ 3. Now add <b > p12 certificate file <b> generated password <b>.
+
+  <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/certificate_section.png" height="300px">
 
 # Video Preview
 <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/gif/demo.gif" height="480px"></td>
