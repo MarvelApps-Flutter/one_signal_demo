@@ -8,35 +8,35 @@ To begin with setup <b> Set up your OneSignal Account then after login click on 
 
  # For Google Android (FCM) Configuration 
 
- 1. Set the <b> app name of your app</b> and <b> choose platform as android </b>
+1.&nbsp;Set the <b> app name of your app</b> and <b> choose platform as android </b>
 
   <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/android/choose_platform.png" height="300px">
 
- 2. <b> Click on Next: Configure Your Platform </b>
- 3. Now add <b > Firebase Server key and Sender ID </b> from firebase project present under <b> Cloud Messaging tab section </b> and <b> click on SAVE and Continue </b>
+2.&nbsp;<b> Click on Next: Configure Your Platform </b>
+3.&nbsp;Now add <b > Firebase Server key and Sender ID </b> from firebase project present under <b> Cloud Messaging tab section </b> and <b> click on SAVE and Continue </b>
 
   <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/android/firebase_key.png" height="300px">
 
- 4. Select your <b> target SDK </b> and <b> click on SAVE and Continue </b>
+4.&nbsp;Select your <b> target SDK </b> and <b> click on SAVE and Continue </b>
 
  <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/android/choose_sdk.png" height="300px">
 
- 5. <b> Install SDK </b> by following documentation or below are the steps for installing SDK for android.
+5.&nbsp;<b> Install SDK </b> by following documentation or below are the steps for installing SDK for android.
 
  <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/android/install_sdk.png" height="300px">
 
  # Install SDK for Android 
- 1. Add <b> maven repository with the specified url inside repositories </b> and also in <b> dependencies </b> add <b> one signal classpath </b> in <b> android/app/build.gradle </b>
+1.&nbsp;Add <b> maven repository with the specified url inside repositories </b> and also in <b> dependencies </b> add <b> one signal classpath </b> in <b> android/app/build.gradle </b>
 
- <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/android/buildscript.png" height="200px">
+<img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/android/buildscript.png" height="200px">
 
- 2. Add apply plugin for oneSignal in <b> android/app/build.gradle </b>
+2.&nbsp;Add apply plugin for oneSignal in <b> android/app/build.gradle </b>
 
-  <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/android/plugin.png" height="100px">
+<img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/android/plugin.png" height="100px">
   
  # For iOS
 
-1.Set the <b> app name of your app</b> and <b> choose platform as ios </b>
+1.&nbsp;Set the <b> app name of your app</b> and <b> choose platform as ios </b>
 
   <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/choose_ios_plat.png" height="300px">
 
