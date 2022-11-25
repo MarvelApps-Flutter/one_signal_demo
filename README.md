@@ -82,7 +82,7 @@ To begin with setup <b> Set up your OneSignal Account then after login click on 
 
 <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/choose_cer.png" height="200px">
 
-5.<b> How to generate CertSigningRequest file </b>
+5.<b> How to generate CertSigningRequest file </b><br>
 5.1.&nbsp;Open Keychain Access app on your macOS system. 
 
 <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/search_keychain.png" height="70px">
@@ -98,6 +98,20 @@ To begin with setup <b> Set up your OneSignal Account then after login click on 
 5.4.&nbsp;This creates a certification request file that will be used later. 
 
 <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/save_csr.png" height="200px">
+
+5.5.&nbsp;Certificate which we saved in previous step, upload that while creating certificate in step 4.9 then click continue
+
+<img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/file_choosen.png" height="200px">
+
+5.6.&nbsp;Finally download file
+
+5.7.&nbsp;Open the .cer file you downloaded in the last step by double-clicking on it in Finder.
+
+5.8.&nbsp;After a few seconds, the Keychain Access program should open. Select <b>Login > My Certificates</b>, then right-click on your Apple Push Services key in the list and select <b>Export "Apple Push Services..."</b>.
+
+<img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/csr_cert.png" height="200px">
+
+5.9.&nbsp;Give the file a unique name using the .p12 extension, and click Save. You will have an option to protect the file with a password. If you add a password, you need to enter this same password on OneSignal.
 
 6.&nbsp;<b>For the iOS version, there are some additional steps that need to be completed.</b>
 
