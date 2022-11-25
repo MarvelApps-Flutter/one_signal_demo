@@ -27,7 +27,7 @@ To begin with setup >> Set up your OneSignal Account then after login click on N
  # Install SDK for Android 
  1. Add <b> maven repository with the specified url inside repositories </b> and also in <b> dependencies </b> add <b> one signal classpath </b> in <b> android/app/build.gradle </b>
 
- <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/android/buildscript.png" height="300px">
+ <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/android/buildscript.png" height="200px">
 
  2. Add apply plugin for oneSignal in <b> android/app/build.gradle </b>
 
