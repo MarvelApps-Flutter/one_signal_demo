@@ -45,7 +45,7 @@ To begin with setup <b> Set up your OneSignal Account then after login click on 
 
   <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/certificate_section.png" height="300px">
 
-4.For generating .p12 certificate ,follow below steps <br>
+4.&nbsp<b>For generating .p12 certificate ,follow below steps</b> <br>
 4.1 Login to your Paid Apple Developer Account and navigate to Certificates, Identifiers & Profiles -> Identifiers and select the Blue + button.
 
 <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/identifier_section.png" height="200px">
@@ -82,27 +82,27 @@ To begin with setup <b> Set up your OneSignal Account then after login click on 
 
 <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/choose_cer.png" height="300px">
 
-5.For the iOS version, there are some additional steps that need to be completed.
+5.&nbsp<b>For the iOS version, there are some additional steps that need to be completed.</b>
 
 5.1. The first one is to add an iOS Notification service extension for that open xcode and select File > New > Target
 
- <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/select_target.png" height="300px">
+<img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/select_target.png" height="300px">
  
- 5.2. Then select Notification Service Extension and press Next.
+5.2. Then select Notification Service Extension and press Next.
 
 <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/choose_service.png" height="300px">
 
- 5.3. Add the product name as OneSignalNotificationServiceExtension and change the language acc to your needs. The team account should be your account or your organization's account.
+5.3. Add the product name as OneSignalNotificationServiceExtension and change the language acc to your needs. The team account should be your account or your organization's account.
 
- <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/product_name.png" height="300px">
+<img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/product_name.png" height="300px">
 
- 5.4. Click the finish at bottom right corner of the window then a pop up will display which will ask for activating "OneSignalNotificationServiceExtension" scheme? , simply click Activate.
+5.4. Click the finish at bottom right corner of the window then a pop up will display which will ask for activating "OneSignalNotificationServiceExtension" scheme? , simply click Activate.
 
- <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/popup.png" height="300px">
+<img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/popup.png" height="300px">
 
- 5.5 Now, open the Xcode project settings and select the OneSignalNotificationServiceExtension target.Under the Deployment info section on this page, select iOS 11.
+5.5 Now, open the Xcode project settings and select the OneSignalNotificationServiceExtension target.Under the Deployment info section on this page, select iOS 11.
 
- <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/one_signal_ios_deploy.png" height="300px">
+<img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/one_signal_ios_deploy.png" height="300px">
 
 5.6 Now, close the Xcode project and go back to your Flutter development IDE. In the /ios directory of your project, open the Podfile, and add the following lines outside of the main target (they should be at the same level as your main target):
 
