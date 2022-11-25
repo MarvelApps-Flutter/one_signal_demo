@@ -52,7 +52,7 @@ To begin with setup <b> Set up your OneSignal Account then after login click on 
 
 4.2. Select <b> App IDs </b> and Continue
 
-<img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/register_identifier.png" height="300px">
+<img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/register_identifier.png" height="200px">
 
 4.3. Register a new <b> identifier </b>
 
