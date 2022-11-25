@@ -36,21 +36,55 @@ To begin with setup <b> Set up your OneSignal Account then after login click on 
   
  # For iOS
 
- 1. Set the <b> app name of your app</b> and <b> choose platform as ios </b>
+1.Set the <b> app name of your app</b> and <b> choose platform as ios </b>
 
   <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/choose_ios_plat.png" height="300px">
 
- 2. <b> Click on Next: Configure Your Platform </b>
- 3. Now add <b > .p12 certificate file </b> and<b> generated password </b>.
+2.<b> Click on Next: Configure Your Platform </b>
+3.Now add <b > .p12 certificate file </b> and<b> generated password </b>.
 
   <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/certificate_section.png" height="300px">
 
- 4. For generating .p12 certificate ,follow below steps
+4.For generating .p12 certificate ,follow below steps
+4.1 Login to your Paid Apple Developer Account and navigate to Certificates, Identifiers & Profiles -> Identifiers and select the Blue + button.
 
+<img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/identifier_section.png" height="300px">
 
- 5. For the iOS version, there are some additional steps that need to be completed.
+4.2. Select App IDs and Continue
 
-  5.1. The first one is to add an iOS Notification service extension for that open xcode and select File > New > Target
+<img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/register_identifier.png" height="300px">
+
+4.3. Register a new identifier
+
+<img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/select_identifier_type.png" height="300px">
+
+4.4. Provide a "Description" and your Explicit "Bundle ID". This must be the same as the "Bundle Identifier" you set for your project in Xcode.
+
+<img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/bundle_id.png" height="300px">
+
+4.5. Enable Push notification capability.
+
+<img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/select_push_capability.png" height="300px">
+
+4.6. Now go to certificates and create a new certificate by clicking the blue + (plus) button.
+
+<img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/add_certificate.png" height="300px">
+
+4.7. Under Service, select Apple Push Notification service SSL (Sandbox & Production, certificate will be applicable to both Sandbox and Production environments, so you do not need a separate key for each one) and click Continue
+
+<img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/select_services.png" height="300px">
+
+4.8. Choose your App ID with matching Bundle ID from the App ID pop-up menu.
+
+<img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/select_appid.png" height="300px">
+
+4.9. Click Choose File..., select the CertSigningRequest file you saved.
+
+<img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/choose_cer.png" height="300px">
+
+5.For the iOS version, there are some additional steps that need to be completed.
+
+5.1. The first one is to add an iOS Notification service extension for that open xcode and select File > New > Target
 
  <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/select_target.png" height="300px">
  
