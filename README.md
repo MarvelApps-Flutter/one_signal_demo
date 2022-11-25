@@ -2,25 +2,25 @@
 A new flutter app for demonstrating Google maps demo with city search functionality.
 
 # Setup 
-To begin with setup >> Set up your OneSignal Account then after login click on New App/Website
+To begin with setup <b> Set up your OneSignal Account then after login click on New App/Website </b>
 
 <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/android/new_setup.png" height="60px">
 
  # For Google Android (FCM) Configuration 
- 1. Set the app name of your app and choose platform
+ 1. Set the <b> app name of your app</b> and <b> choose platform </b>
 
   <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/android/choose_platform.png" height="300px">
 
- 2. Click on Next: Configure Your Platform
- 3. Now add Firebase Server key and Sender ID from firebase project present under Cloud Messaging tab section and click on SAVE and Continue
+ 2. <b> Click on Next: Configure Your Platform </b>
+ 3. Now add <b > Firebase Server key and Sender ID <b> from firebase project present under <b> Cloud Messaging tab section </b> and <b> click on SAVE and Continue </b>
 
   <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/android/firebase_key.png" height="300px">
 
- 4. Select your target SDK and click on SAVE and Continue
+ 4. Select your <b> target SDK </b> and <b> click on SAVE and Continue </b>
 
  <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/android/choose_sdk.png" height="300px">
 
- 5. Install SDK by following documentation or below are the steps for installing SDK for android.
+ 5. <b> Install SDK <b> by following documentation or below are the steps for installing SDK for android.
 
  <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/android/install_sdk.png" height="300px">
 
