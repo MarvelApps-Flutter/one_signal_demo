@@ -1,5 +1,5 @@
 # One Signal Push notifications demo
-A new flutter app for demonstrating Google maps demo with city search functionality.
+A new flutter app for demonstrating One Signal Push notifications for android and iOS. OneSignal provide free email, sms, push notifications and in-app message service for mobile apps.
 
 # Setup 
 To begin with setup <b> Set up your OneSignal Account then after login click on New App/Website </b>
