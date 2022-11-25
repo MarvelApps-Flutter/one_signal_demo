@@ -41,16 +41,16 @@ To begin with setup <b> Set up your OneSignal Account then after login click on 
   <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/choose_ios_plat.png" height="300px">
 
  2. <b> Click on Next: Configure Your Platform </b>
- 3. Now add <b > .p12 certificate file </b> and<b> generated password <b>.
+ 3. Now add <b > .p12 certificate file </b> and<b> generated password </b>.
 
   <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/certificate_section.png" height="300px">
 
- 4. For .p12 certificate ,w
-
+ 4. For generating .p12 certificate ,follow below steps
 
 
  5.For the iOS version, there are some additional steps that need to be completed.
- 4.1. The first one is to add an iOS Notification service extension for that open xcode and select File > New > Target
+
+ 5.1. The first one is to add an iOS Notification service extension for that open xcode and select File > New > Target
 
  <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/select_target.png" height="300px">
  
