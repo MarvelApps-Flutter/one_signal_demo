@@ -21,7 +21,7 @@ To begin with setup <b> Set up your OneSignal Account then after login click on 
 
  <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/android/choose_sdk.png" height="300px">
 
-5.&nbsp;<b> Install SDK </b> by following documentation or below are the steps for installing SDK for android.
+5.&nbsp;<b>Install SDK </b> by following documentation or below are the steps for installing SDK for android.
 
  <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/android/install_sdk.png" height="300px">
 
@@ -40,7 +40,7 @@ To begin with setup <b> Set up your OneSignal Account then after login click on 
 
   <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/choose_ios_plat.png" height="300px">
 
-2.<b> Click on Next: Configure Your Platform </b>
+2.<b> Click on Next: Configure Your Platform </b><br>
 3.Now add <b > .p12 certificate file </b> and<b> generated password </b>.
 
   <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/certificate_section.png" height="300px">
