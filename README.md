@@ -93,7 +93,7 @@ To begin with setup <b> Set up your OneSignal Account then after login click on 
 
 5.3.&nbsp;Next, select the <b>Saved to disk</b> option and enter your information in the required fields. Then click <b>Continue</b>.
 
-<img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/save_to_disk.png" height="200px">
+<img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/save_to_disk.png" height="300px">
 
 5.4.&nbsp;This creates a certification request file that will be used later. 
 
