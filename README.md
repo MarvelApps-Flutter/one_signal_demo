@@ -76,7 +76,7 @@ To begin with setup <b> Set up your OneSignal Account then after login click on 
 
 4.8. Choose your <b>App ID with matching Bundle ID </b> from the App ID pop-up menu.
 
-<img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/select_appid.png" height="300px">
+<img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/select_appid.png" height="200px">
 
 4.9. Click <b> Choose File...</b>, select the <b> CertSigningRequest</b> file you saved.
 
