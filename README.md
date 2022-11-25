@@ -96,7 +96,7 @@ To begin with setup <b> Set up your OneSignal Account then after login click on 
 
 <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/product_name.png" height="300px">
 
-5.4. Click the finish at bottom right corner of the window then a pop up will display which will ask for activating "OneSignalNotificationServiceExtension" scheme? , simply click Activate.
+5.4. Click the finish at bottom right corner of the window then a pop up will display which will ask for <b> activating "OneSignalNotificationServiceExtension" scheme?</b> , simply click Activate.
 
 <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/popup.png" height="300px">
 
