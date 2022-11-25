@@ -60,6 +60,25 @@ To begin with setup <b> Set up your OneSignal Account then after login click on 
 
  4.4. Click the finish at bottom right corner of the window then a pop up will display which will ask for activating "OneSignalNotificationServiceExtension" scheme? , simply click Activate.
 
+ <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/popup.png" height="300px">
+
+ 4.5 Now, open the Xcode project settings and select the OneSignalNotificationServiceExtension target.Under the Deployment info section on this page, select iOS 11.
+
+ <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/one_signal_ios_deploy.png" height="300px">
+
+4.6 Now, close the Xcode project and go back to your Flutter development IDE. In the /ios directory of your project, open the Podfile, and add the following lines outside of the main target (they should be at the same level as your main target):
+
+<img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/podfile_setup.png" height="300px">
+
+4.7. Now you need to enable push capability for iOS apps.Open your ios folder in Xcode. In the main app target, select Signing & Capabilities > All > + and then search for "Push Notifications"
+
+<img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/select_push_noti.png" height="300px">
+
+4.8. Next, enable Background Modes and check Remote Notifications.
+
+<img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/select_background_mode.png" height="300px">
+<img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/select_remote_noti.png" height="300px">
+
 # Video Preview
 <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/gif/demo.gif" height="480px"></td>
 
