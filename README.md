@@ -83,6 +83,21 @@ To begin with setup <b> Set up your OneSignal Account then after login click on 
 <img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/choose_cer.png" height="200px">
 
 5.<b> How to generate CertSigningRequest file </b>
+5.1.&nbsp;Open Keychain Access app on your macOS system. 
+
+<img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/search_keychain.png" height="70px">
+
+5.2.&nbsp;Select <b>Keychain Access > Certificate Assistant > Request a Certificate From a Certificate Authority...</b>
+
+<img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/select_cert_assistant.png" height="200px">
+
+5.3.&nbsp;Next, select the <b>Saved to disk</b> option and enter your information in the required fields. Then click <b>Continue</b>.
+
+<img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/save_to_disk.png" height="200px">
+
+5.4.&nbsp;This creates a certification request file that will be used later. 
+
+<img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/save_csr.png" height="200px">
 
 6.&nbsp;<b>For the iOS version, there are some additional steps that need to be completed.</b>
 
