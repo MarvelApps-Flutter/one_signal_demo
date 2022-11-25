@@ -80,7 +80,7 @@ To begin with setup <b> Set up your OneSignal Account then after login click on 
 
 4.9. Click <b> Choose File...</b>, select the <b> CertSigningRequest</b> file you saved.
 
-<img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/choose_cer.png" height="300px">
+<img src="https://github.com/MarvelApps-Flutter/one_signal_demo/blob/master/media/ios/choose_cer.png" height="200px">
 
 5.&nbsp;<b>For the iOS version, there are some additional steps that need to be completed.</b>
 
