@@ -15,6 +15,9 @@ OneSignal and Firebase Comparison Chart
   <td>
   No need to setup Android channel for notification
   </td>
+   <td>
+  Need to setup Android channel for notification
+  </td>
   </tr>
   <tr>
   <td>
