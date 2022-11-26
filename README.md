@@ -4,44 +4,44 @@ A new flutter app for demonstrating <b>One Signal Push notifications for android
 # OneSignal and Firebase Comparison Chart
 <table>
   <tr>
-   <th>
-   OneSignal
-   </th>
     <th>
-   Firebase(FCM)
-   </th>
+      OneSignal
+    </th>
+    <th>
+      Firebase(FCM)
+    </th>
   </tr>
   <tr>
-  <td>
-  No need to setup Android channel for notification
-  </td>
-  <td>
-  Need to setup Android channel for notification
-  </td>
+    <td>
+      No need to setup Android channel for notification
+    </td>
+    <td>
+      Need to setup Android channel for notification
+    </td>
   </tr>
   <tr>
-  <td>
-  Huawei devices support 
-  </td>
-  <td>
-  Huawei devices not support 
-  </td>
+    <td>
+      Huawei devices support 
+    </td>
+    <td>
+      Huawei devices not support 
+    </td>
   </tr>
   <tr>
-  <td>
- No need to manage background and terminated state for notifications.
-  </td>
-  <td>
-  Need to manage background and terminated state for notifications.
-  </td>
+    <td>
+      No need to manage background and terminated state for notifications.
+    </td>
+    <td>
+      Need to manage background and terminated state for notifications.
+    </td>
   </tr>
   <tr>
-  <td>
- For iOS p12 file is mandatory , rest background mode and push notification capability is as same as in fcm
-  </td>
-  <td>
-  For iOS p12 file is not mandatory , we can upload p8 or p12 , rest background mode and push notification capability is as same.
-  </td>
+    <td>
+      For iOS p12 file is mandatory , rest background mode and push notification capability is as same as in fcm
+    </td>
+    <td>
+      For iOS p12 file is not mandatory , we can upload p8 or p12 , rest background mode and push notification capability is as same.
+    </td>
   </tr>
 </table>
 
