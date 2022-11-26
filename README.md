@@ -1,6 +1,28 @@
 # One Signal Push notifications demo
 A new flutter app for demonstrating <b>One Signal Push notifications for android and iOS</b>. OneSignal provide <b>free email, sms, push notifications </b> and <b> in-app message service</b> for mobile apps.
 
+OneSignal and Firebase Comparison Chart
+<table>
+  <tr>
+   <th>
+   OneSignal
+   </th>
+    <th>
+   Firebase(FCM)
+   </th>
+  </tr>
+  <tr>
+  <td>
+  No need to setup Android channel for notification
+  </td>
+  </tr>
+  <tr>
+  <td>
+  Need to setup Android channel for notification
+  </td>
+  </tr>
+</table>
+
 # Setup 
 To begin with setup <b> Set up your OneSignal Account then after login click on New App/Website </b>
 
