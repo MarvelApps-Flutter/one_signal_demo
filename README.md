@@ -15,13 +15,32 @@ OneSignal and Firebase Comparison Chart
   <td>
   No need to setup Android channel for notification
   </td>
-   <td>
+  <td>
   Need to setup Android channel for notification
   </td>
   </tr>
   <tr>
   <td>
-  Need to setup Android channel for notification
+  Huawei devices support 
+  </td>
+  <td>
+  Huawei devices not support 
+  </td>
+  </tr>
+  <tr>
+  <td>
+ No need to manage background and terminated state for notifications.
+  </td>
+  <td>
+  Need to manage background and terminated state for notifications.
+  </td>
+  </tr>
+  <tr>
+  <td>
+ For iOS p12 file is mandatory , rest background mode and push notification capability is as same as in fcm
+  </td>
+  <td>
+  For iOS p12 file is not mandatory , we can upload p8 or p12 , rest background mode and push notification capability is as same.
   </td>
   </tr>
 </table>
